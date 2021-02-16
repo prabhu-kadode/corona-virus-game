@@ -1,69 +1,69 @@
 body {
-  overflow: hidden;
+	overflow: hidden;
 }
-v.prabhu {
-  position: absolute;
-  left:50%;
-  top:50%;
-  transform: translate(-50%,-50%);
-  z-index:111;
-  color:white;
-  font-weight: bold;
-  text-shadow: 0px 0px 30px;
+.prabhu {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 111;
+	color: white;
+	font-weight: bold;
+	text-shadow: 0px 0px 30px;
 }
 .ball {
-  /* width: 20px;
+	/* width: 20px;
   height: 20px;
   border-radius: 50%;
   background-color: green; */
-  position: absolute;
-  bottom: 85px;
-  z-index: 10;
-  /* animation: scaleItem 1.5s alternate infinite ease-in; */
+	position: absolute;
+	bottom: 85px;
+	z-index: 10;
+	/* animation: scaleItem 1.5s alternate infinite ease-in; */
 }
 .vaccineClass {
-  height:200px;
-  width:100%;
-  background-color:chocolate;
-  z-index:10;
-  line-height:200px;;
-  bottom: 12%;
-  position:absolute;
-  color:white;
-  font-weight: bold;
-  text-align: center;
-  font-size: xxx-large;
-  text-shadow: 0px 9px 4px green;
+	height: 200px;
+	width: 100%;
+	background-color: chocolate;
+	z-index: 10;
+	line-height: 200px;
+	bottom: 12%;
+	position: absolute;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-size: xxx-large;
+	text-shadow: 0px 9px 4px green;
 }
 .bullete {
-  width: 50;
-  height: 67px;
-  position: absolute;
-  bottom: 50px;
-  z-index: 10;
-  /* animation: scaleItem 1.5s alternate infinite ease-in; */
+	width: 50;
+	height: 67px;
+	position: absolute;
+	bottom: 50px;
+	z-index: 10;
+	/* animation: scaleItem 1.5s alternate infinite ease-in; */
 }
 .explosion {
-  width:100px;
-  height:100px;
-  position: absolute;
-  z-index: 10;;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	z-index: 10;
 }
-.buttons{
-  left: 50%;
-  transform: translate(-50%, 0%);
-    bottom:10px;
-   width:300px;
-    margin: auto;
-    position: absolute;
-    z-index:100;
-    text-align: center;
+.buttons {
+	left: 50%;
+	transform: translate(-50%, 0%);
+	bottom: 10px;
+	width: 300px;
+	margin: auto;
+	position: absolute;
+	z-index: 100;
+	text-align: center;
 }
 .buttons i {
-  margin:20px;
+	margin: 20px;
 }
 .buttons button {
-    /* font-weight: bold;
+	/* font-weight: bold;
     background-color: green;
     color: white;
     font-weight: bold;
@@ -73,160 +73,155 @@ v.prabhu {
     border: 1px solid yellow;
     outline: none;
     opacity: 0.5; */
-   
 }
 .buttons button:active {
-  box-shadow:0px 0px 0px 0px;
-  transition: 1s ease-in;
+	box-shadow: 0px 0px 0px 0px;
+	transition: 1s ease-in;
 }
 .virus {
-    padding:10px;
-    width:60px;
-   
-    position:  absolute;
-    top:10px;
-    left:20px;
-   
-    border-radius: 30px;
-    /* animation:floatBubble 4s ; */
-    /* animation: scaleItem 1.5s alternate infinite ease-in;  */
-    z-index:10;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    margin-top: 20px;
-    
-    
+	padding: 10px;
+	width: 60px;
 
+	position: absolute;
+	top: 10px;
+	left: 20px;
 
+	border-radius: 30px;
+	/* animation:floatBubble 4s ; */
+	/* animation: scaleItem 1.5s alternate infinite ease-in;  */
+	z-index: 10;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	margin-top: 20px;
 }
-.blue{
-  background-color: blue;
-  transform: scale(0.5);
+.blue {
+	background-color: blue;
+	transform: scale(0.5);
 }
 .green {
-  background-color: green;
-  transform: scale(0.1);
+	background-color: green;
+	transform: scale(0.1);
 }
-.pink{
-  background-color:pink;
-  transform: scale(0.8);
+.pink {
+	background-color: pink;
+	transform: scale(0.8);
 }
-.yellow{
-  background-color: yellow;
-  transform: scale(1);
+.yellow {
+	background-color: yellow;
+	transform: scale(1);
 }
 .red {
-  background-color: red;
+	background-color: red;
 }
-.maroon{
-  background-color: maroon;
+.maroon {
+	background-color: maroon;
 }
-@keyframes floatBubble{
-    0% {
-           top:0px;
-           -webkit-animation-timing-function: ease-in;
-   
-      }
-   
-   
-      100% {
-         top:600px;
-         animation-timing-function: ease-out;
-      }
-   
-   }
+@keyframes floatBubble {
+	0% {
+		top: 0px;
+		-webkit-animation-timing-function: ease-in;
+	}
+
+	100% {
+		top: 600px;
+		animation-timing-function: ease-out;
+	}
+}
 @keyframes scaleItem {
-    0%   {transform: scale(.8);}
-  100% {transform: scale(1.5);}
+	0% {
+		transform: scale(0.8);
+	}
+	100% {
+		transform: scale(1.5);
+	}
 }
 @keyframes move-twink-back {
-  from {
-    background-position: 0 0;
-  }
+	from {
+		background-position: 0 0;
+	}
 
-  to {
-    background-position: -10000px 5000px;
-  }
+	to {
+		background-position: -10000px 5000px;
+	}
 }
 .stars,
 .twinkling {
-  position: absolute;
+	position: absolute;
 
-  top: 0;
+	top: 0;
 
-  left: 0;
+	left: 0;
 
-  right: 0;
+	right: 0;
 
-  bottom: 0;
+	bottom: 0;
 
-  width: 100%;
+	width: 100%;
 
-  height: 100%;
+	height: 100%;
 
-  display: block;
+	display: block;
 }
 .stars {
-  background: #000 url(assets/stars2.png) repeat top center;
+	background: #000 url(assets/stars2.png) repeat top center;
 
-  z-index: 0;
+	z-index: 0;
 }
 
 .twinkling {
-  background: transparent url(assets/twinkling.png) repeat top center;
+	background: transparent url(assets/twinkling.png) repeat top center;
 
-  z-index: 1;
+	z-index: 1;
 
-  -moz-animation: move-twink-back 200s linear infinite;
+	-moz-animation: move-twink-back 200s linear infinite;
 
-  -ms-animation: move-twink-back 200s linear infinite;
+	-ms-animation: move-twink-back 200s linear infinite;
 
-  -o-animation: move-twink-back 200s linear infinite;
+	-o-animation: move-twink-back 200s linear infinite;
 
-  -webkit-animation: move-twink-back 200s linear infinite;
+	-webkit-animation: move-twink-back 200s linear infinite;
 
-  animation: move-twink-back 200s linear infinite;
+	animation: move-twink-back 200s linear infinite;
 }
 .gameTools {
-position:absolute;
-bottom: 20%;
-right: 0px;
-padding-top: 10px;;
-z-index: 100;
-color: white;
+	position: absolute;
+	bottom: 20%;
+	right: 0px;
+	padding-top: 10px;
+	z-index: 100;
+	color: white;
 }
 .gameTools div {
-  margin-bottom: 10px;;
+	margin-bottom: 10px;
 }
 .score {
-  /* right:0px;
+	/* right:0px;
   bottom:40%;
   position: absolute; */
-  color: white;
-  /* background-color: green; */
-    /* z-index: 100;
+	color: white;
+	/* background-color: green; */
+	/* z-index: 100;
     padding: 10px;
     border-radius: 10px; */
-
 }
 .vaccineActivation {
-  /* right:0px;
+	/* right:0px;
   bottom:30%;
   position: absolute; */
-  /* color: white;
+	/* color: white;
     background-color: green; */
-    /* z-index: 100;
+	/* z-index: 100;
     padding: 10px;
     border-radius: 10px; */
 }
-.wearTheMask{
-  /* right:0px;
+.wearTheMask {
+	/* right:0px;
   bottom:20%;
   position: absolute; */
-  color: white;
-    /* background-color: green; */
-    /* z-index: 100;
+	color: white;
+	/* background-color: green; */
+	/* z-index: 100;
     padding: 10px;
     border-radius: 10px; */
 }

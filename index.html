@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/66feaa4f22.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="prabhu">
+        Developed by Prabhu Kadode.
+    </div>
+
+    <div class="stars"></div>
+
+    <div class="twinkling"></div>
+
+    <div class="ball" id="ball">
+        <i class="fas fa-fighter-jet" style="font-size: 90px;color:brown;transform: rotate(270deg);margin-bottom: 20px;;"></i>
+    </div>
+    <div class="gameTools">
+        <div class="humansKilled">
+            <i class="fas fa-user-alt" style="color:rgb(128, 0, 32);font-size: 50px;;"></i><span id="humansKilledScoreCard">0</span>
+        </div>
+        <div class="score">
+            <i class="fas fa-viruses" style="color:rgb(128, 0, 32);font-size: 50px;;"></i> <span id="scoreBoard">0</span>
+        </div>
+        <div class="vaccineActivation" onclick="activateVaccine()">
+            <i class="fas fa-pump-medical" style="color:rgb(128, 0, 32);font-size: 50px;;"></i>
+        </div>
+        <div class="doubleangle">
+           
+            <i class="fas fa-angle-double-up"  style="color:rgb(128, 0, 32);font-size:50px;" onclick="activateMultipleFire()" id="twobullete"></i>
+        </div>
+        <div class="wearTheMask">
+            <i class="fas fa-bullhorn" id="valumeId" style="color:rgb(128, 0, 32);font-size: 50px;;" onclick="playGunSoundOnOf()"></i>
+        </div>
+    </div>
+    <!-- <div class ="imgak">
+        <img src ="assets/ak.png">
+    </div> -->
+    <div class="buttons">
+        <i class="fas fa-angle-left" style="color: Mediumslateblue;font-size: 40px;" onclick="moveLeftSide()"></i>
+        <i class="fas fa-angle-up" style="color: Mediumslateblue;font-size: 40px;" onclick="createBullete()"></i>
+        <i class="fas fa-angle-right" style="color: Mediumslateblue;font-size: 40px;" onclick="moveRightSide()"></i>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
